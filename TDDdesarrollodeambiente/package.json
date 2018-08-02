@@ -1,0 +1,23 @@
+{
+  "name": "tdddesarrollodeambiente",
+  "version": "0.0.1",
+  "description": "Clase de TDD y ambiente de desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaEspinozaMoya/TDDdesarrollo.git"
+  },
+  "keywords": [
+    "test",
+    "development"
+  ],
+  "author": "Fabian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaEspinozaMoya/TDDdesarrollo/issues"
+  },
+  "homepage": "https://github.com/CamilaEspinozaMoya/TDDdesarrollo#readme"
+}
