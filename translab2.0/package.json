@@ -1,0 +1,23 @@
+{
+  "name": "translab2.0",
+  "version": "0.0.1",
+  "description": "Ejercicio de translab 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaEspinozaMoya/translab2.0.git"
+  },
+  "keywords": [
+    "test",
+    "development"
+  ],
+  "author": "Camila Espinoza Moya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaEspinozaMoya/translab2.0/issues"
+  },
+  "homepage": "https://github.com/CamilaEspinozaMoya/translab2.0#readme"
+}
