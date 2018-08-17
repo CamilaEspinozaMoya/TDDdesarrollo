@@ -1,0 +1,28 @@
+{
+  "name": "foodmap2",
+  "version": "0.0.1",
+  "description": "foodmap development test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaEspinozaMoya/foodmap.git"
+  },
+  "keywords": [
+    "foodmap",
+    "development",
+    "test"
+  ],
+  "author": "Camila Espinoza Moya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaEspinozaMoya/foodmap/issues"
+  },
+  "homepage": "https://github.com/CamilaEspinozaMoya/foodmap#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
