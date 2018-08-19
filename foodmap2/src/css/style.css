@@ -17,15 +17,18 @@
   margin-bottom: 40%;
 }
 
-#contenedorMapa{
+#divContenedor{
   background: #333;
   width: 100vw;
   height: 100vh;
   color: orange;
   text-align: center;
-  top: 5em;
+  top: 10em;
+  display: inline;
 }
 
 #mapa{
-  position: fixed;
+  display: inline-block;
+  margin: auto;
+  top: 10em;
 }

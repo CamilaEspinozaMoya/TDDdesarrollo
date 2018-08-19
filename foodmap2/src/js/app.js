@@ -51,6 +51,7 @@ explore.request(params, {}, onResult, onError);
 
 let map;
 let infowindow;
+var markers = []
 
 function initMap()
 {
@@ -93,19 +94,25 @@ function initMap()
  });
 }
 
- function crearMarcador(place)
- {
+function searchMap(){
+  
+}
+
+function crearMarcador(place){
    // Creamos un marcador
-   let marker = new google.maps.Marker({
-     map: map,
-     position: place.geometry.location
-   });
+  let marker = new google.maps.Marker({
+    map: map,
+    position: place.geometry.location
+  });
 
  // Asignamos el evento click del marcador
-   google.maps.event.addListener(marker, 'click', function() {
-     infowindow.setContent(place.name);
-     infowindow.open(map, this);
-   });
-   }
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(place.name);
+    infowindow.open(map, this);
+    });
+  }
+
+
+   
 
   
