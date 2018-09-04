@@ -1,0 +1,26 @@
+{
+  "name": "trello",
+  "version": "0.0.1",
+  "description": "copia trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaEspinozaMoya/trello.git"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "Camila Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaEspinozaMoya/trello/issues"
+  },
+  "homepage": "https://github.com/CamilaEspinozaMoya/trello#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
